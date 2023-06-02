@@ -11,6 +11,18 @@ body {
     align-items: center; 
     min-height: 100vh;
 }
+/* minmax: esta función nos permite definir un valor mínimo y 
+   máximo del alto y ancho de una celda.
+
+   Ejemplo:
+        grid-template-columns: minmax(30px, 300px); 
+   Definimos lineas de columnas de tamaño mínimo de 30px y 
+   tamaño máximo de 300px
+
+   repeat: nos permite crear n columnas o celdas del mismo 
+   tamaño. Recibe 2 parámetros, la cantidad de filas o columnas 
+   y el tamaño que tendrán */
+
 
 .container {
     display: grid;
